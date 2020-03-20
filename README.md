@@ -1,39 +1,12 @@
-# HCView-H5
+﻿# HCView
+一个类似word或wps用于文字排版相关功能的控件，有Delphi、C#、Html5、C++(暂未完成)四个版本，可用在电子病历或其他文书系统里。
+HCView代码遵循BSD协议，你可以任意的用于商业项目和自由的项目中而不用通知我，使用时请注意BSD协议以下三点：
+1.如果再发布的产品中包含源代码，则在源代码中必须带有原来代码中的BSD协议。
+2.如果再发布的只是二进制类库/软件，则需要在类库/软件的文档和版权声明中包含原来代码中的BSD协议。
+3.不可以用开源代码的作者/机构名字和原来产品的名字做市场推广。
+你可以加入QQ群 649023932 来获取更多的技术交流。
 
-#### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0217/105536_4b7f5ed5_2149334.png "emr全界面.png")
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+友情提示：
+1.HCView默认支持藏文等有紧缩字符的文本，这导致文件保存后体积比不支持藏文等要大，如果你只需要中文和英文支持且对体积有敏感，可以关闭全局的条件编译符号 UNPLACEHOLDERCHAR，关闭后文件保存体积较关闭前理论上会减小约50%，注意关闭后打开关闭前保存的文档会不正常。

@@ -1,6 +1,6 @@
 ﻿# HCView
 一个类似word或wps用于文字排版相关功能的控件，有Delphi、C#、Html5、C++(暂未完成)四个版本，可用在电子病历或其他文书系统里。
-[在线示例](http://hcview.cn/)是一个在线示例，你也可以加入QQ群 649023932 来获取更多的技术交流。
+[http://hcview.cn/](http://hcview.cn/)是一个在线的示例，你也可以加入QQ群 649023932 来获取更多的技术交流。
 
 ![示例截图](https://images.gitee.com/uploads/images/2020/0320/225800_d849f68c_2149334.png "page.png")
 
